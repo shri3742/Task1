@@ -1,0 +1,69 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: whitesmoke;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: red;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.hero h2 {
+  margin-bottom: 1em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Features section styles */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 3em 0;
+}
+
+.feature {
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: yellow;
+}
